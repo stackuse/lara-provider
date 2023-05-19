@@ -3,10 +3,10 @@
 namespace Libra\Provider\Ding;
 
 use Illuminate\Support\Arr;
-use Libra\Provider\Ding\Concerns\UserTrait;
 use Libra\Provider\Binder\Contracts\EncryptorContract;
 use Libra\Provider\Binder\Contracts\ProviderContract;
 use Libra\Provider\Binder\Contracts\ServerContract;
+use Libra\Provider\Ding\Concerns\UserTrait;
 
 class DingProvider extends ProviderContract
 {

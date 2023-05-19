@@ -3,10 +3,10 @@
 namespace Libra\Provider\Lark;
 
 use Illuminate\Support\Arr;
-use Libra\Provider\Lark\Concerns\UserTrait;
 use Libra\Provider\Binder\Contracts\EncryptorContract;
 use Libra\Provider\Binder\Contracts\ProviderContract;
 use Libra\Provider\Binder\Contracts\ServerContract;
+use Libra\Provider\Lark\Concerns\UserTrait;
 
 class LarkProvider extends ProviderContract
 {
